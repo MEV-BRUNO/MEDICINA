@@ -159,6 +159,31 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Baza arhiva\Nastavnik_roditelj\Nastavik_strucno_usavrsavanje_220_A.JPG" />
+    <Content Include="Baza arhiva\Nastavnik_roditelj\Nastavnik_analiza_168_A.JPG" />
+    <Content Include="Baza arhiva\Nastavnik_roditelj\Nastavnik_analiza_168_B.JPG" />
+    <Content Include="Baza arhiva\Nastavnik_roditelj\Nastavnik_neposredni_173_A.JPG" />
+    <Content Include="Baza arhiva\Nastavnik_roditelj\Nastavnik_neposredni_173_B.JPG" />
+    <Content Include="Baza arhiva\Nastavnik_roditelj\Nastavnik_neposredni_173_C.JPG" />
+    <Content Include="Baza arhiva\Nastavnik_roditelj\Nastavnik_neposredni_173_D.JPG" />
+    <Content Include="Baza arhiva\Nastavnik_roditelj\Nastavnik_neposredni_173_E.JPG" />
+    <Content Include="Baza arhiva\Nastavnik_roditelj\Nastavnik_protokol_170_A.JPG" />
+    <Content Include="Baza arhiva\Nastavnik_roditelj\Nastavnik_protokol_170_B.JPG" />
+    <Content Include="Baza arhiva\Nastavnik_roditelj\Nastavnik_protokol_170_C.JPG" />
+    <Content Include="Baza arhiva\Nastavnik_roditelj\Razrednik_analiza_204_A.JPG" />
+    <Content Include="Baza arhiva\Nastavnik_roditelj\Razrednik_analiza_204_B.JPG" />
+    <Content Include="Baza arhiva\Nastavnik_roditelj\Razrednik_komunikacija_207_A.JPG" />
+    <Content Include="Baza arhiva\Nastavnik_roditelj\Razrednik_procjena_uspjeha_209_A.JPG" />
+    <Content Include="Baza arhiva\Nastavnik_roditelj\Razrednik_profil_194_A.JPG" />
+    <Content Include="Baza arhiva\Nastavnik_roditelj\Razrednik_profil_194_B.JPG" />
+    <Content Include="Baza arhiva\Nastavnik_roditelj\Roditelj_biljeske_243_A.JPG" />
+    <Content Include="Baza arhiva\Nastavnik_roditelj\Roditelj_biljeske_243_B.JPG" />
+    <Content Include="Baza arhiva\Nastavnik_roditelj\Roditelj_procjena_230_A.JPG" />
+    <Content Include="Baza arhiva\Nastavnik_roditelj\Roditelj_procjena_230_B.JPG" />
+    <Content Include="Baza arhiva\Nastavnik_roditelj\Roditelj_radni_list_233_A.JPG" />
+    <Content Include="Baza arhiva\Nastavnik_roditelj\Roditelj_radni_list_233_B.JPG" />
+    <Content Include="Baza arhiva\Nastavnik_roditelj\Roditelj_razgovor_241_A.JPG" />
+    <Content Include="Baza arhiva\Nastavnik_roditelj\Roditelj_razgovor_241_B.JPG" />
     <Content Include="Baza arhiva\pedagog.sql" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
