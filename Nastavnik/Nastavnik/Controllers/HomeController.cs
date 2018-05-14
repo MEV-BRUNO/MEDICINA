@@ -13,22 +13,16 @@ namespace Nastavnik.Controllers
             return View();
         }
 
-        public ActionResult Login()
+        public ActionResult About()
         {
-            ViewBag.Message = "Login stranica";
+            ViewBag.Message = "Your application description page.";
 
             return View();
         }
 
-        public ActionResult Teachers()
+        public ActionResult Contact()
         {
-            ViewBag.Message = "Stranice nastavnika";
-
-            return View();
-        }
-        public ActionResult Parents()
-        {
-            ViewBag.Message = "Stranica roditelja";
+            ViewBag.Message = "Your contact page.";
 
             return View();
         }
