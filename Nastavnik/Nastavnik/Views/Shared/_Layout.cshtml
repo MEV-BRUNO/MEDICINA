@@ -18,13 +18,69 @@
                 </button>
                 @Html.ActionLink("Nastavnik-Roditelj Project", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
+
+            <style>
+
+                </style>
+
             <div class="navbar-collapse collapse">
+
+
+
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Početna", "Index", "Home")</li>
-                 
+
                     <li>@Html.ActionLink("Login", "Login", "Home")</li>
-                    <li>@Html.ActionLink("Nastavnici", "Teachers", "Home")</li>
-                    <li>@Html.ActionLink("Roditelji", "Parents", "Home")</li>
+
+                  
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Učenici <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li>@Html.ActionLink("Popis učenika", "Students", "Home")</li>
+                            <li>@Html.ActionLink("Osobni podaci", "Students", "Home")</li>
+                            <li>@Html.ActionLink("Bilješke o radu s učenikom", "Students", "Home")</li>
+                            <li>@Html.ActionLink("Lista praćenja", "Students", "Home")</li>
+                            <li>@Html.ActionLink("Protokol promatranja", "Students", "Home")</li>
+                     
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Roditelji <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li>@Html.ActionLink("Procjena roditelja", "Parents", "Home")</li>
+                            <li>@Html.ActionLink("Radni list", "Parents", "Home")</li>
+                            <li>@Html.ActionLink("Razgovor s roditeljem", "Parents", "Home")</li>
+                            <li>@Html.ActionLink("Bilješke o radu", "Parents", "Home")</li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nastavnici <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <span> Neposredni rad </span>
+                            <li>@Html.ActionLink("Analiza nastavnog sata", "Teachers", "Home")</li>
+                            <li>@Html.ActionLink("Protokol praćenja", "Teachers", "Home")</li>
+                            <li>@Html.ActionLink("Uvid u neposredni rad", "Teachers", "Home")</li>
+                            <span> Razrednici  </span>
+                            <li>@Html.ActionLink("Profil razrednog odjela", "Teachers", "Home")</li>
+                            <li>@Html.ActionLink("Analiza odgojne situacije razreda", "Teachers", "Home")</li>
+                            <li>@Html.ActionLink("Procjena uspjeha učenika", "Teachers", "Home")</li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Opći podaci <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li>@Html.ActionLink("Razredni odjeli", "Index", "Home")</li>
+                            <li>@Html.ActionLink("Popis učenika", "Index", "Home")</li>
+                            <li>@Html.ActionLink("Popis nastavnika", "Index", "Home")</li>
+                            <li>@Html.ActionLink("Školska godina", "Index", "Home")</li>
+                            <li>@Html.ActionLink("Podaci o školi", "Index", "Home")</li>
+                        </ul>
+                    </li>
+
+
                 </ul>
             </div>
         </div>

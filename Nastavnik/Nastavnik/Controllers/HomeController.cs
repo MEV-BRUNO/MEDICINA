@@ -32,5 +32,11 @@ namespace Nastavnik.Controllers
 
             return View();
         }
+        public ActionResult Students()
+        {
+            ViewBag.Message = "Stranica učenika";
+
+            return View();
+        }
     }
 }

@@ -222,6 +222,7 @@
     <Content Include="Views\Home\Login.cshtml" />
     <Content Include="Views\Home\Parents.cshtml" />
     <Content Include="Views\Home\Teachers.cshtml" />
+    <Content Include="Views\Home\Students.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
